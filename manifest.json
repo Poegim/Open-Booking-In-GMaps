@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Open Booking.com in Google Maps",
+  "version": "1.0",
+  "description": "Opens Booking.com object in Google Maps",
+  "author": "github-poegim",
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "scripting"
+  ]
+}
